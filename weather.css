@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 body {
+    background-image: url(https://image.freepik.com/free-photo/clouds_69709-219.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -40,6 +44,9 @@ section div {
     display: flex;
     margin: 5px;
     font-size: 35px;
+}
+.min-temp, .max-temp {
+    margin: 10px 40px;
 }
 main > div {
     margin: 10px;
